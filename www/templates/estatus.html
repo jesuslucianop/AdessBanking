@@ -1,0 +1,53 @@
+<style>
+
+body {
+    cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}
+
+.header .col {
+    background-color:skyblue;
+}
+
+.col {
+    border: solid 1px black;
+    border-bottom-style: none;
+    border-right-style: none;
+}
+
+.col:last-child {
+    border-right: solid 1px grey;
+}
+
+.row:last-child .col {
+    border-bottom: solid 1px grey;
+}
+</style>
+<ion-modal-view>
+  <ion-header-bar>
+    <h1 class="title">Estatus De Solicitudes</h1>
+    <div class="buttons">
+      <button class="button button-clear" ng-click="het()">Close</button>
+    </div>
+  </ion-header-bar>
+  <ion-content>
+    <!--he aqui donde sera el encabezado de todas los estados de solicitudes -->
+      <div class="row header">
+        <div class="col">ID</div>
+        <div class="col">Tipo De Solicitud</div>
+        <div class="col">Fecha</div>
+        <div class="col">Estatus</div>
+        <div class="col">Entidad</div>
+      </div>
+      <div class="row" >
+        <div class="col">{{var1}}</div>
+        <div class="col">{{var2}}</a></div>
+        <div class="col">{{var3}}</div>
+        <div class="col">{{var4}}</div>
+        <div class="col">{{var5}}</div>
+      </div>
+<div ng-repeat="j in contenido">
+  {{$index +  1}}
+  {{j.nombre}}
+</div>
+  </ion-content>
+</ion-modal-view>

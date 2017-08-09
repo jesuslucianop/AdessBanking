@@ -1,0 +1,50 @@
+
+  <ion-view view-title="Informacion Del Bth">
+  <div class="buttons">
+    <button class="button button-clear" ng-click="closeLogin()">Close</button>
+  </div>
+  <ion-content>
+    <h1 class="title">Informacion BTH</h1>
+{{nombre_usuario}}
+    <div class="list">
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Nombre</span>
+   <input type="text" value="{{nombre}} {{apellido1}} {{apellido2}}">
+
+
+       </label>
+
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Cedula</span>
+       <input type="text" value="{{cedula}}">
+       </label>
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Tarjeta</span>
+       <input type="text" value="{{plasticos}}">
+       </label>
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Subsidios</span>
+       <input type="text" value="{{subsidios}}">
+       </label>
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Fecha de Nacimiento</span>
+       <input type="text" value="{{fecha}}">
+       </label>
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Estatus JCE</span>
+       <input type="text" value="{{Estado}}">
+       </label>
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Direccion</span>
+       <input type="text" value="{{direccion}}">
+       </label>
+       <label class="item item-input item-stacked-label-right">
+       <span class="input-label">Telefono</span>
+       <input type="text" value="{{telefono}}" >
+       </label>
+       <label class="item">
+         <button class="button button-block button-energized" ng-click="showPopup()">Agredar Direccion/Telefono</button>
+       </label>
+    </div>
+  </ion-content>
+</ion-view>

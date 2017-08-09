@@ -1,0 +1,86 @@
+/* Empty. Add your own CSS if you like */
+@import url('bootstrap.min.css');
+@import url('bootstrap-material-design.min.css');
+@import url('ripples.min.css');
+@import url('mdb.min.css');
+
+
+/*My styles*/
+body {
+    background-color: #2E2E2E  !important;
+}
+
+
+.responsive-image{
+        height: auto;
+    max-width: 100%;
+}
+
+.navbar{
+        margin-bottom: 0px !important;
+}
+.navbar.navbar-inverse {
+    background-color: #1a1a1a !important;
+}
+
+
+/*ICONS*/
+.material-icons.md-dark { color: rgba(0, 0, 0, 0.54); }
+.material-icons.md-dark.md-inactive { color: rgba(0, 0, 0, 0.26); }
+
+.material-icons.md-light { color: rgba(255, 255, 255, 1); }
+.material-icons.md-light.md-inactive { color: rgba(255, 255, 255, 0.3); }
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+footer.page-footer {
+    margin-top: 0px !important;
+    padding-top: 0px !important;
+    background-color: #212121 !important;
+    color: #fff;
+    font-size: 10px;
+}
+
+.footer-copyright{
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.dark-color{
+   background-color:  #1a1a1a;
+}
+
+.md-20{
+    font-size:20px;
+}
+
+.md-14{
+    font-size:14px;
+}
+
+.md-12{
+    font-size:12px;
+}
+
+.margin-10{
+margin-top:10px;
+}
+
+.white-color{
+    color: white;
+}
+
+.md-form label {
+    color: white;
+}
+
+.subtitle {
+    font-weight: 100 !important;
+    padding: 0px 15px !important;
+}
+
+.is-focused .form-control{
+    background: #2E2E2E !important;
+}
